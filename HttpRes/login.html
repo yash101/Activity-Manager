@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Activity Manager: Log In!</title>
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <script src="/js/cli/lib/jquery.min.js"></script>
+    <script src="/js/cli/login_signup.js"></script>
+  </head>
+  <body>
+    <div id="loginfrm">
+      <div id="logoimg"><div>&nbsp;</div></div>
+      <div id="loginfrm">
+        <h1><center>Log In!</center></h1>
+        <form method="POST" action="/login">
+          <input type="text" name="uname" placeholder="Username">
+          <input type="password" name="passwd" placeholder="Password">
+          <input type="submit" value="Log In!">
+          <label>Stay Logged In? <input type="checkbox" value="true" name="stayLoggedIn"></label>
+        </form>
+      </div>
+      <div id="extra">
+        <a href="/forgot.html">Forgot your password?</a>
+        <a href="/signup.html">Sign up instead?</a>
+        <a href="/">Home</a>
+      </div>
+    </div>
+  </body>
+</html>
+

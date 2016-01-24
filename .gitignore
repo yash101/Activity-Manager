@@ -1,2 +1,5 @@
 /Debug/
 /rundir/
+.swp
+.tmp
+.DS_Store
