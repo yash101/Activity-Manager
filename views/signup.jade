@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title="Activity Manager: Sign Up!"
+    link(rel="stylesheet", type="text/css", href="/stylesheets/login.css")
+    script(src="/javascripts/cli/lib/jquery.min.js")
+    script(src="/javascripts/cli/login_signup.js")
+  body
+    div(id="loginfrm")
+      div(id="logoimg")
+        div
+      div(id="loginfrm")
+        h1
+          center="Sign Up!"
+        form(method="POST", action="/login/signup")
+          input(type="text", name="uname", id="uname", placeholder="Username")
+          input(type="text", name="email", id="email", placeholder="Email")
+          input(type="password", name="passwd", id="passwd", placeholder="Password")
+          input(type="password", name="chkpasswd", id="chkpasswd", placeholder="Repeat Your Password")
+          input(type="text", name="fname", id="fname", placeholder="First Name")
+          input(type="text", name="lname", id="lname", placeholder="Last Name")
+          input(type="submit", value="Sign Up!")
+      div(id="extra")
+        a(href="/login") Log In Instead?
+        a(href="/") Home
