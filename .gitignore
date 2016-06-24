@@ -1,8 +1,10 @@
 /Debug/
 /rundir/
-.swp
-.tmp
+*.swp
+*.tmp
 .DS_Store
-.log
+*.log
+*.swo
+*~
 /node_modules/
 /data/
