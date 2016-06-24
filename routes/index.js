@@ -55,12 +55,6 @@ router.post("/login/signup", function(req, res) {
 
   var collection = req.db.get("users");
 
-  var response = collection.find({
-    "username": req.body.uname
-  }, { });
-
-  console.log(response);
-
   collection.insert({
     "username": req.body.uname,
     "email": req.body.email,
